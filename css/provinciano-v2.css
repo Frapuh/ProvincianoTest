@@ -32,10 +32,8 @@
     td {
         max-width: 205px; 
     }
-    select {
+    input, select, textarea, input[type="text"] {
         min-height: 55px;
-    }
-    input {
-        min-height: 55px;
+        font-size:30px !important;
     }
   }
