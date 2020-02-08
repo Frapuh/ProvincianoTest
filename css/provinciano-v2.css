@@ -3,7 +3,13 @@
 	padding: 2em;
 }
 
+ 
 
+@media (min-width: 1025px){
+    th {
+        min-width: 120px;
+    }
+}
 
 @media (max-width: 1024px) {
     .filter-wrapper {
