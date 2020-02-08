@@ -3,14 +3,31 @@
 	padding: 2em;
 }
 
-@media (max-width: 768px) {
+
+
+@media (max-width: 1024px) {
     .filter-wrapper {
-            text-align: center;
+        text-align: center;
      } 
      p {
          text-align: center;
+         font-size: 35px;
      }
      h1 {
         text-align: center;
+        font-size: 70px;
      }
+     .container {
+         max-width: 960px;
+     }
+     .control-label {
+        font-size: 35px;
+     }
+     table{
+         font-size: 30px;
+     }
+
+     th {
+        min-width: 204px;
+    }
   }
